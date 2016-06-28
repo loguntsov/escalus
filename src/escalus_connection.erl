@@ -42,7 +42,7 @@
 %% Private
 -export([connection_step/2]).
 
--define(TIMEOUT, 1000).
+-define(TIMEOUT, 30000).
 
 %%%===================================================================
 %%% Behaviour callback
